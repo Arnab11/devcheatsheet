@@ -67,3 +67,28 @@ Options:
 -W 	# Verify a archive file 
 -r 	# update or add file or directory in already existed .tar file
 ```
+
+### Process Management
+```sh
+ps                # Show snapshot of processes
+top               # Show real time processes
+kill <pid>        # Kill process with id pid
+pkill <name>      # Kill process with name name
+killall <name>    # Kill all processes with names beginning name
+```
+
+### Bash Shortcuts
+```sh
+CTRL-c          # Stop current command
+CTRL-z          # Sleep program
+CTRL-a          # Go to start of line
+CTRL-e          # Go to end of line
+CTRL-u          # Cut from start of line
+CTRL-k          # Cut to end of line
+CTRL-r          # Search history
+!!              # Repeat last command
+!abc            # Run last command starting with abc
+!abc:p          # Print last command starting with abc
+!$              # Last argument of previous command
+!*              # All arguments of previous command
+```
